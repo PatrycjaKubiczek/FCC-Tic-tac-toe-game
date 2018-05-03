@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Free Code Camp: Build a Tic Tac Toe Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  
+  <header>
+    <h1>Tic tac toe game</h1>
+    <div class="choosesign">
+      Choose your sign:
+      <button id="btnX" value="x">x</button>
+      <button id="btnO" value="o">o</button>
+    </div>
+  </header>
+  
+  <div class="choosenSigns">
+    <span style="float: left">You: <span id="urSign"></span></span>
+    <span style="float: right">Computer: <span id="compSign"></span></span>
+  </div>
+  
+  <div class="playboard disable">
+    <div class="row">
+      <div class="col" id="box_1"></div>
+      <div class="col" id="box_2"></div>
+      <div class="col" id="box_3"></div>
+    </div>
+    <div class="row">
+      <div class="col" id="box_4"></div>
+      <div class="col" id="box_5"></div>
+      <div class="col" id="box_6"></div>
+    </div>
+    <div class="row">
+      <div class="col" id="box_7"></div>
+      <div class="col" id="box_8"></div>
+      <div class="col" id="box_9"></div>
+    </div>
+  </div>
+  
+  <div class="winner__header">
+    <h2>..and the winner is:</h2>
+    <h1 id="winner"></h1>
+    <button id="reset">reset game</button>
+  </div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
